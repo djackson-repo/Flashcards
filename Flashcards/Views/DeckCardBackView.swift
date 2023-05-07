@@ -13,8 +13,3 @@ struct DeckCardBackView: View {
     }
 }
 
-struct DeckCardBackView_Previews: PreviewProvider {
-    static var previews: some View {
-        DeckCardBackView()
-    }
-}

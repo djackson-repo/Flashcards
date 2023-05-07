@@ -7,7 +7,7 @@
 
 import Foundation
 struct UserModel : Codable {
-    let userId: Int64
-    let name: String
-    let pass: String
+    var userId: Int64
+    var name: String
+    var pass: String
 }

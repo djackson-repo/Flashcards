@@ -7,15 +7,11 @@
 
 import SwiftUI
 
-class UserData: ObservableObject {
-    @Published public var isAuthenticated = false
-    @Published public var UserId = 0
-}
-
 struct LoginView: View {
+    @State private var user = UserModel(userId: -1, name: "", pass: "")
+    @State private var isAuthenticated = false
     @State private var username = ""
-     @State private var password = ""
-     @StateObject private var user = UserData()
+    @State private var password = ""
     var body: some View {
         NavigationView{
             VStack {
@@ -28,14 +24,20 @@ struct LoginView: View {
                         Button("Login") {
                             // Replace these values with your own username and password
                             if username == "Djackson" && password == "password" {
-                                user.isAuthenticated = true
+                                isAuthenticated = true
+                                user.name = username
+                                user.pass = password
+                            } else {
+                                Text("Incorrect password")
+                                                    .foregroundColor(.red)
+                                                    
                             }
                             
                         }
                         .padding()
                         
-                if user.isAuthenticated {
-                    NavigationLink(destination: DecksView(username: $username, isAuthenticated: $user.isAuthenticated).navigationBarBackButtonHidden(), isActive: $user.isAuthenticated ) {
+                if isAuthenticated {
+                    NavigationLink(destination: DecksView(user: $user, isAuthenticated: $isAuthenticated).navigationBarBackButtonHidden(), isActive: $isAuthenticated ) {
                                 EmptyView()
                             }
                         }
@@ -45,8 +47,3 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
-    }
-}
