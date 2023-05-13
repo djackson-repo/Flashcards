@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA0360E2A101EC300134E93 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0360D2A101EC300134E93 /* UserController.swift */; };
 		4CD9BCCA29F08577008CEEDC /* FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BCC929F08577008CEEDC /* FlashcardsApp.swift */; };
 		4CD9BCCC29F08577008CEEDC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BCCB29F08577008CEEDC /* LoginView.swift */; };
 		4CD9BCCE29F08579008CEEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9BCCD29F08579008CEEDC /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CA0360D2A101EC300134E93 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		4CD9BCC629F08577008CEEDC /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD9BCC929F08577008CEEDC /* FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsApp.swift; sourceTree = "<group>"; };
 		4CD9BCCB29F08577008CEEDC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CA0360C2A101C2A00134E93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0360D2A101EC300134E93 /* UserController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4CD9BCBD29F08577008CEEDC = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		4CD9BCC829F08577008CEEDC /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
+				4CA0360C2A101C2A00134E93 /* Controllers */,
 				4CD9BCFA29F089D4008CEEDC /* Models */,
 				4CD9BCF329F085BB008CEEDC /* Views */,
 				4CD9BCC929F08577008CEEDC /* FlashcardsApp.swift */,
@@ -283,6 +294,7 @@
 				4CD9BCFE29F08A56008CEEDC /* DeckModel.swift in Sources */,
 				4CD9BCCC29F08577008CEEDC /* LoginView.swift in Sources */,
 				4CD9BCF729F088EA008CEEDC /* DeckCardFrontView.swift in Sources */,
+				4CA0360E2A101EC300134E93 /* UserController.swift in Sources */,
 				4CD9BD0429F08B46008CEEDC /* ProgressModel.swift in Sources */,
 				4CD9BCCA29F08577008CEEDC /* FlashcardsApp.swift in Sources */,
 				4CD9BD0229F08AEC008CEEDC /* CardModel.swift in Sources */,
