@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4CA0360E2A101EC300134E93 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0360D2A101EC300134E93 /* UserController.swift */; };
+		4CA036102A12C75C00134E93 /* DeckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0360F2A12C75C00134E93 /* DeckController.swift */; };
+		4CA036122A14255800134E93 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA036112A14255800134E93 /* CardController.swift */; };
+		4CA036142A14C38A00134E93 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA036132A14C38A00134E93 /* ProgressController.swift */; };
 		4CD9BCCA29F08577008CEEDC /* FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BCC929F08577008CEEDC /* FlashcardsApp.swift */; };
 		4CD9BCCC29F08577008CEEDC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BCCB29F08577008CEEDC /* LoginView.swift */; };
 		4CD9BCCE29F08579008CEEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9BCCD29F08579008CEEDC /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		4CA0360D2A101EC300134E93 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		4CA0360F2A12C75C00134E93 /* DeckController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckController.swift; sourceTree = "<group>"; };
+		4CA036112A14255800134E93 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		4CA036132A14C38A00134E93 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		4CD9BCC629F08577008CEEDC /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD9BCC929F08577008CEEDC /* FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsApp.swift; sourceTree = "<group>"; };
 		4CD9BCCB29F08577008CEEDC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				4CA0360D2A101EC300134E93 /* UserController.swift */,
+				4CA0360F2A12C75C00134E93 /* DeckController.swift */,
+				4CA036112A14255800134E93 /* CardController.swift */,
+				4CA036132A14C38A00134E93 /* ProgressController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -289,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA036102A12C75C00134E93 /* DeckController.swift in Sources */,
 				4CD9BCF929F089B9008CEEDC /* DeckCardBackView.swift in Sources */,
 				4CD9BD0829F71DB0008CEEDC /* CreateDeckView.swift in Sources */,
 				4CD9BCFE29F08A56008CEEDC /* DeckModel.swift in Sources */,
@@ -298,7 +308,9 @@
 				4CD9BD0429F08B46008CEEDC /* ProgressModel.swift in Sources */,
 				4CD9BCCA29F08577008CEEDC /* FlashcardsApp.swift in Sources */,
 				4CD9BD0229F08AEC008CEEDC /* CardModel.swift in Sources */,
+				4CA036122A14255800134E93 /* CardController.swift in Sources */,
 				4CD9BCFC29F089E1008CEEDC /* UserModel.swift in Sources */,
+				4CA036142A14C38A00134E93 /* ProgressController.swift in Sources */,
 				4CD9BD0029F08AC8008CEEDC /* TagModel.swift in Sources */,
 				4CD9BD0629F71ADA008CEEDC /* ProfileView.swift in Sources */,
 				4CD9BCF529F088BF008CEEDC /* DecksView.swift in Sources */,
