@@ -24,7 +24,6 @@
 		4CD9BD0229F08AEC008CEEDC /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BD0129F08AEC008CEEDC /* CardModel.swift */; };
 		4CD9BD0429F08B46008CEEDC /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BD0329F08B46008CEEDC /* ProgressModel.swift */; };
 		4CD9BD0629F71ADA008CEEDC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BD0529F71ADA008CEEDC /* ProfileView.swift */; };
-		4CD9BD0829F71DB0008CEEDC /* CreateDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9BD0729F71DB0008CEEDC /* CreateDeckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		4CD9BD0129F08AEC008CEEDC /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		4CD9BD0329F08B46008CEEDC /* ProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModel.swift; sourceTree = "<group>"; };
 		4CD9BD0529F71ADA008CEEDC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		4CD9BD0729F71DB0008CEEDC /* CreateDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +149,6 @@
 				4CD9BCF629F088EA008CEEDC /* DeckCardFrontView.swift */,
 				4CD9BCF829F089B9008CEEDC /* DeckCardBackView.swift */,
 				4CD9BD0529F71ADA008CEEDC /* ProfileView.swift */,
-				4CD9BD0729F71DB0008CEEDC /* CreateDeckView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,7 +297,6 @@
 			files = (
 				4CA036102A12C75C00134E93 /* DeckController.swift in Sources */,
 				4CD9BCF929F089B9008CEEDC /* DeckCardBackView.swift in Sources */,
-				4CD9BD0829F71DB0008CEEDC /* CreateDeckView.swift in Sources */,
 				4CD9BCFE29F08A56008CEEDC /* DeckModel.swift in Sources */,
 				4CD9BCCC29F08577008CEEDC /* LoginView.swift in Sources */,
 				4CD9BCF729F088EA008CEEDC /* DeckCardFrontView.swift in Sources */,
