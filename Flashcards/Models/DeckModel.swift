@@ -7,9 +7,10 @@
 
 import Foundation
 struct DeckModel : Codable {
-    let deckId: Int64
-    let userId: Int64
-    let tagIds: [Int64]
-    let name: String
-    let description: String
+    var deckId: Int64
+    var name: String
+    var description: String
+    var userId: Int64
+    var tagId: Int64
+
 }

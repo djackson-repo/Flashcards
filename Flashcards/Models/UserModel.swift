@@ -9,5 +9,5 @@ import Foundation
 struct UserModel : Codable {
     var userId: Int64
     var name: String
-    var pass: String
+    var password: String
 }

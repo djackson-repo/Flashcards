@@ -11,5 +11,4 @@ struct ProgressModel : Codable {
     let deckId: Int64
     let cardsStudied: Int
     let cardsMastered: Int
-    let lastStudied: Date
 }

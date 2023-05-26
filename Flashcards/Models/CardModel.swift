@@ -7,9 +7,9 @@
 
 import Foundation
 struct CardModel : Codable {
-    let cardId: Int64
-    let deckId: Int64
-    let front_text: String
-    let back_text: String
-    let timesCorrect: Int
+    var cardId: Int64
+    var deckId: Int64
+    var front: String
+    var back: String
+    var timesStudied: Int64
 }
